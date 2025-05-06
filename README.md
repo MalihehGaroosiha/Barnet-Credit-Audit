@@ -13,6 +13,9 @@ transaction amounts. Our client, an Auditor, has specifically requested a summar
 data, along with visual representations that allow for comparisons by quarter. Additionally, the Auditor is
 interested in identifying any significant changes in spending behavior and exploring the potential for
 grouping Service Areas based on similar spending patterns.
+To further support these objectives, we employed K-Means clustering to identify natural groupings among Service Areas based on transaction volume and value metrics.
+After testing different values of k and evaluating the within-cluster sum of squares (elbow method), we determined that three clusters provided the most meaningful segmentation.
+These clusters reveal distinct patterns in service area performance, which may inform more targeted resource allocation, improved financial oversight, and strategic decision-making.
 
 Through this analysis, we aim to deliver a comprehensive overview of the transaction trends,
 highlighting important statistics and visual insights that can inform the Auditor’s understanding of
